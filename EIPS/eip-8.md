@@ -1,12 +1,12 @@
-### Title
-
-      EIP: 8
-      Title: devp2p Forward Compatibility Requirements for Homestead
-      Author: Felix Lange <felix@ethdev.com>
-      Status: Final
-      Type: Standards Track
-      Layer: Networking
-      Created: 2015-12-18
+---
+eip: 8
+title: devp2p Forward Compatibility Requirements for Homestead
+author: Felix Lange <felix@ethdev.com>
+status: Final
+type: Standards Track
+category: Networking
+created: 2015-12-18
+---
 
 ### Abstract
 
@@ -85,7 +85,7 @@ The proposed changes address forward compatibility by applying Postel's Law (als
 the Robustness Principle) throughout the protocol stack. The merit and applicability of
 this approach has been studied repeatedly since its original application in RFC 761. For a
 recent perspective, see
-["The Robustness Principle Reconsidered" (Eric Allman, 2011)](http://queue.acm.org/detail.cfm?id=1999945).
+["The Robustness Principle Reconsidered" (Eric Allman, 2011)](https://queue.acm.org/detail.cfm?id=1999945).
 
 #### Changes to the devp2p Wire Protocol
 
